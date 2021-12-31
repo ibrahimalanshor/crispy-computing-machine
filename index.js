@@ -44,7 +44,7 @@ module.exports = plugin(function ({ addUtilities, theme }) {
     },
     '.row-between': {
       display: 'flex',
-      justifyContent: 'between'
+      justifyContent: 'space-between'
     },
     '.row-middle': {
       display: 'flex',
