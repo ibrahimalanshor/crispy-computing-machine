@@ -27,7 +27,7 @@ module.exports = plugin(function ({ addUtilities, theme }) {
       marginLeft: `-${spacing[gap]}`,
       marginRight: `-${spacing[gap]}`,
     },
-    [`.row-gap-${gap} .col, .row-gap-${gap} .col-fill`]: {
+    [`.row-gap-${gap} > .col, .row-gap-${gap} > .col-fill`]: {
       paddingLeft: `${spacing[gap]}`,
       paddingRight: `${spacing[gap]}`,
     }

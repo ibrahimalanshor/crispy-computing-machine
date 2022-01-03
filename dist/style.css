@@ -512,7 +512,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: -0.25rem;
 }
 
-.row-gap-1 .col, .row-gap-1 .col-fill {
+.row-gap-1 > .col, .row-gap-1 > .col-fill {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
 }
@@ -522,7 +522,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: -0.5rem;
 }
 
-.row-gap-2 .col, .row-gap-2 .col-fill {
+.row-gap-2 > .col, .row-gap-2 > .col-fill {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
@@ -532,7 +532,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: -0.75rem;
 }
 
-.row-gap-3 .col, .row-gap-3 .col-fill {
+.row-gap-3 > .col, .row-gap-3 > .col-fill {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
@@ -542,7 +542,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: -1rem;
 }
 
-.row-gap-4 .col, .row-gap-4 .col-fill {
+.row-gap-4 > .col, .row-gap-4 > .col-fill {
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -559,7 +559,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .row-between {
   display: flex;
-  justify-content: between;
+  justify-content: space-between;
 }
 
 .row-middle {
