@@ -30,6 +30,14 @@ module.exports = plugin(function ({ addUtilities, theme }) {
     [`.row-gap-${gap} > .col, .row-gap-${gap} > .col-fill`]: {
       paddingLeft: `${spacing[gap]}`,
       paddingRight: `${spacing[gap]}`,
+      marginBottom: `${spacing[gap + gap]}`
+    },
+    [`.row-gap-x-${gap} > .col, .row-gap-x-${gap} > .col-fill`]: {
+      paddingLeft: `${spacing[gap]}`,
+      paddingRight: `${spacing[gap]}`,
+    },
+    [`.row-gap-y-${gap} > .col, .row-gap-y-${gap} > .col-fill`]: {
+      marginBottom: `${spacing[gap + gap]}`
     }
   }))
 

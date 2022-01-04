@@ -515,6 +515,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .row-gap-1 > .col, .row-gap-1 > .col-fill {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.row-gap-x-1 > .col, .row-gap-x-1 > .col-fill {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.row-gap-y-1 > .col, .row-gap-y-1 > .col-fill {
+  margin-bottom: 0.5rem;
 }
 
 .row.row-gap-2 {
@@ -525,6 +535,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .row-gap-2 > .col, .row-gap-2 > .col-fill {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.row-gap-x-2 > .col, .row-gap-x-2 > .col-fill {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.row-gap-y-2 > .col, .row-gap-y-2 > .col-fill {
+  margin-bottom: 1rem;
 }
 
 .row.row-gap-3 {
@@ -535,6 +555,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .row-gap-3 > .col, .row-gap-3 > .col-fill {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.row-gap-x-3 > .col, .row-gap-x-3 > .col-fill {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.row-gap-y-3 > .col, .row-gap-y-3 > .col-fill {
+  margin-bottom: 1.5rem;
 }
 
 .row.row-gap-4 {
@@ -545,6 +575,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .row-gap-4 > .col, .row-gap-4 > .col-fill {
   padding-left: 1rem;
   padding-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+.row-gap-x-4 > .col, .row-gap-x-4 > .col-fill {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.row-gap-y-4 > .col, .row-gap-y-4 > .col-fill {
+  margin-bottom: 2rem;
 }
 
 .row-center {
