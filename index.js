@@ -23,7 +23,7 @@ module.exports = plugin(function ({ addUtilities, theme }) {
   }
 
   const rowGap = gaps.map(gap => ({
-    [`.row.row-gap-${gap}`]: {
+    [`.row.row-gap-${gap}, .row.row-gap-x-${gap}`]: {
       marginLeft: `-${spacing[gap]}`,
       marginRight: `-${spacing[gap]}`,
     },
